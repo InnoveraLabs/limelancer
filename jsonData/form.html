@@ -1,0 +1,63 @@
+<input type="hidden" name="extra" value="1">
+<li className="custom-extra-row" id="custom-extra-row">
+    <ul className="extra-values" id="extra-values">
+        <li>
+            <label className="fit-checkbox extra-active fit-checkbox-color-white fit-checkbox-shape-square"
+                   id="fit-checkbox extra-active fit-checkbox-color-white fit-checkbox-shape-square">
+                <input type="checkbox" checked="" />
+                <span className="checkmark-box" id="checkmark-box">
+                    <span className="fit-icon check-icon" style="width: 10px; height: 10px;" id="fit-icon check-icon">
+                        <svg width="11" height="9" viewBox="0 0 11 9" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.64489 8.10164L0.158292 4.61504C-0.0511769 4.40557 -0.0511769 4.06594 0.158292 3.85645L0.916858 3.09786C1.12633 2.88837 1.46598 2.88837 1.67545 3.09786L4.02419 5.44658L9.05493 0.41586C9.2644 0.206391 9.60405 0.206391 9.81352 0.41586L10.5721 1.17445C10.7816 1.38392 10.7816 1.72355 10.5721 1.93303L4.40348 8.10166C4.19399 8.31113 3.85436 8.31113 3.64489 8.10164V8.10164Z"
+                            ></path>
+                        </svg>
+                    </span>
+                </span>
+            </label>
+            <span className="attr" id="attr">Title</span>
+            <div className="fit-input-wrapper title-input fit-input-icon-start" id="fit-input-wrapper title-input fit-input-icon-start">
+                <div className="fit-input-inner-wrapper" id="fit-input-inner-wrapper">
+                    <input className="fit-input" id="fit-input" type="text" name="extra_title[]" required placeholder="Title your extra service" maxlength="20" minlength="3" value="" /></div>
+            </div>
+            <i>&nbsp;0 / 20 max</i>
+        </li>
+        <li>
+            <span className="attr" id="attr">Description</span>
+            <div className="description-container" id="description-container">
+                <span className="i-will" id="i-will"></span>
+                <div className="fit-input-wrapper description-input fit-input-icon-start" id="fit-input-wrapper description-input fit-input-icon-start">
+                    <div className="fit-input-inner-wrapper" id="fit-input-inner-wrapper">
+                        <input className="fit-input" id="fit-input" type="text" required name="extra_desc[]" placeholder="Describe your offering" value="" style="width: 80%;" /></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <span className="attr for-extra" id="attr for-extra">For an extra&nbsp;&nbsp;</span>
+            <div className="fit-input-wrapper price-stepper fit-input-icon-start" id="fit-input-wrapper price-stepper fit-input-icon-start">
+                <div className="fit-input-inner-wrapper" id="fit-input-inner-wrapper">
+                    <input className="fit-input" id="fit-input" required type="number" name="extra_price[]" step="5" min="5" max="1000" value="" /></div>
+            </div>
+            <span className="for-extra" id="for-extra">&nbsp;$</span>
+            <span className="for-additional" id="for-additional">and an additional</span>
+            <select name="fast_delivery[]" id="duration-dropdown" required className="form-control" style="width: 16%;">
+                <option value="">Select</option>
+                <option value="1">1 Days</option>
+                <option value="2">2 Days</option>
+                <option value="3">3 Days</option>
+                <option value="4">4 Days</option>
+                <option value="5">5 Days</option>
+                <option value="6">6 Days</option>
+                <option value="7">7 Days</option>
+                <option value="8">8 Days</option>
+                <option value="9">9 Days</option>
+                <option value="10">10 Days</option>
+                <option value="11">11 Days</option>
+                <option value="12">12 Days</option>
+                <option value="13">13 Days</option>
+                <option value="14">14 Days</option>
+
+            </select>
+        </li>
+    </ul>
+</li>

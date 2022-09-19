@@ -1,0 +1,124 @@
+.pro-box{
+padding: 0;	
+}
+.pro-box .gig-nav,.pax-5{
+	padding:0px 5%;
+}
+.pro-banner{
+	padding:0;
+}
+.hero-banner img{
+width: 100%;
+padding: 0;
+margin: 0;
+object-fit: contain;
+}
+.hero-banner{
+	height: 250px;
+}
+.hero-title{
+	    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 48px;
+    color: #fff;
+}
+.header-title{
+	font-weight:300;
+}
+.manage-orders .nav-tabs{
+	position:relative;
+}
+.manage-orders ul li a{
+	text-transform:uppercase;
+	font-size:14px;
+}
+.manage-orders .nav-tabs .nav-link{
+	padding:20px 0px;
+	background-color: #f7f7f7;
+border-top: none;
+border-color: #dee2e6 #f7f7f7 #dee2e6;
+color: #999;
+}
+.manage-orders .nav-tabs .nav-link.active{
+color: #0e0e0f;		
+}
+.manage-orders .nav-tabs .nav-link:hover{
+color: #0e0e0f;	
+}
+.manage-orders .nav-tabs .nav-item {
+   margin-right: 25px;
+}
+.manage-orders .nav-tabs .nav-link.active::before{
+
+}
+.orders-tab-content .container.tab-pane.active{
+	display:inline;
+	padding: 0;
+}
+.manage-orders  .tab-pane {
+    padding: 0;
+    margin: 0;
+}
+.orders-table {
+	width:100%;
+	font-size: 14px;
+}
+.orders-table thead tr {
+    background-color: #fff;
+    border: 1px #e5e5e5 solid;
+}
+.orders-table tbody tr{
+border: 1px solid #ddd;
+}
+.p-b-100 {
+    padding-bottom: 100px !important;
+}
+.orders-table tbody tr:not(.last){
+	text-transform:uppercase;
+	font-weight:500;
+}
+.orders-table tr td{
+padding:10px;	
+
+}
+.orders-table thead tr {
+    font-size: 14px;
+    line-height: 17px;
+	text-transform:uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+	font-weight: bold;
+    color: #7a7d85;
+}
+.order-header #query{
+	border-bottom: 1px solid #ddd;
+
+font-size: 13px;
+padding: 5px;
+width: 100%;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+.order-header .btn.btn-gig-search::before {
+    content: '\f002';
+    font-family: fontawesome;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ccc;
+}
+.order-header .btn.btn-gig-search{
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 50px;
+    width: 19px;
+    height: 19px;
+}
+.request-offers{
+	position:absolute;
+	right:0px;
+	top:15px;
+}
